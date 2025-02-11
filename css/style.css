@@ -5,12 +5,12 @@
 
 body{
     font-family: arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #b4e7e7;
 }
 
 header{
-    background-color: #370707;
-    color: white;
+    background-color: #030507;
+    color: rgb(223, 213, 213);
     text-align: center;
     padding: 1em;
 }
@@ -21,15 +21,15 @@ header{
 }
 
 footer{
-    background-color: #370707;
+    background-color: #080808;
     color: white;
     text-align: center;
     padding: 1em;
 }
 
 .conteudo{
-    background-color: white;
-    padding: 2em !important;
+    background-color: rgb(255, 255, 255);
+    padding: 0em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
     width: 100%;
@@ -41,18 +41,22 @@ a{
 }
 
 .principal{
-    margin-right: 25% !important;
-    margin-left: 25% !important;
-    margin-top: 1% !important;
-    margin-bottom: 15% !important;
+    margin-right: 38% !important;
+    margin-left: 38% !important;
+    margin-top: 2% !important;
+    margin-bottom: 1% !important;
 }
 
 .img-icone{
     width: 100% !important;
+    margin-top: 1.5em;
+
 }
 
 .txt-icone{
-    font-size: 200% !important;
+    font-size: 120% !important;
+    padding: 2em;
+    text-align: left;
 }
 
 @media (min-width: 200px) and (max-width:768px){
